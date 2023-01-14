@@ -12,6 +12,7 @@ const updateClock = function(){
  if ( h > 12) {
     h = h-12;
     ampm = "PM"
+    ampmEl.style.backgroundColor = "grey";
  }
 
  h = h < 10 ? "0"+h : h;
