@@ -24,7 +24,7 @@ const updateClock = function(){
  secondsEl.innerText = s;
  ampmEl.innerText = ampm;
  setTimeout(()=> {
-    updateClock()
+    updateClock();
  },1000)
 
 }
